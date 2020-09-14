@@ -1,28 +1,16 @@
 {
-  "name": "static-file-server",
+  "name": "sust-cse-books",
   "version": "0.0.0",
-  "description": "Serves static files. To be used in Heroku",
+  "description": "serves course material for sust cse 2019",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mgonto/heroku-static-file-server"
+    "url": "https://git.heroku.com/sust-cse-books.git"
   },
-  "keywords": [
-    "static",
-    "file",
-    "serve",
-    "heroku"
-  ],
-  "author": "Martin Gontovnikas",
+  "author": "Al-Mubin Nabil",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mgonto/heroku-static-file-server/issues"
-  },
-  "homepage": "https://github.com/mgonto/heroku-static-file-server",
+  "homepage": "https://sust-cse-books.herokuapp.cpm",
   "dependencies": {
-    "serve": "^1.4.0"
+    "serve": "^11.3.2"
   }
 }
